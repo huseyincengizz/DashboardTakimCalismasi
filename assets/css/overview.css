@@ -1,0 +1,469 @@
+a {
+  color: #000;
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+/* Reset CSS Finish */
+
+/* General CSS Start*/
+.container {
+  display: grid;
+  grid-template-columns: 320px auto;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.01em;
+}
+h2 {
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+h4 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+}
+.largeText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+h6 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+p {
+  font-family: "Inter";
+  color: #5f6d7e;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.smallText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5f6d7e;
+}
+.xSmallText {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #5F6D7E;
+}
+.blueButton {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 10px 16px;
+  background: #437ef7;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+}
+.whiteButton {
+  display: inline-block;
+  background: #ffffff;
+  border: 1px solid #dae0e6;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #272d37;
+  padding: 10px 16px;
+}
+
+/* General CSS Finish*/
+
+/* Desktop CSS Start */
+
+
+/* ----right-menu-start   ----- */
+
+.panel{
+  margin-right: 25px;
+}
+.right-menu{
+  margin: 0;
+  padding: 0;
+}
+.right-menu-divider{
+  position: fixed;
+  border-left: 1px solid  #F7F7F8 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.menu-header{
+  border: 1px solid #EAEBF0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+  display:flex;
+  gap: 20px;
+  flex-direction:row;
+  margin: 25px 15px;
+  padding: 20px 15px;
+  flex-wrap: wrap;
+}
+.menu-header img{
+  width: 40px;
+  height: 40px;
+}
+.sidebar-heading{
+  font-family: 'Inter';
+  padding: 5px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #5F6D7E;
+  margin: 10px auto;
+}
+.right-menu li{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  gap: 12px;
+}
+.menu-item{
+  margin: 0 auto;
+  list-style-type: none;
+}
+.menu-link{
+  display: flex;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #5F6D7E;
+  gap: 10px;
+  padding: 10px 15px;
+  flex-grow: 1;
+}
+.menu-item:hover{
+  border-left: 3px solid #437EF7;
+  background-color: #F5FAFF;
+}
+.menu-link:hover{
+  color: #437EF7;
+}
+.right-menu-item
+{
+  display: flex;
+}
+.menu-down li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.hamburger-icon{
+  display: none;
+}
+
+/*   ---- right-menu-end ----- */
+
+.heroContainer {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.graphic {
+  width: 720px;
+  background-color: #ffffff;
+  border: 1px solid #eaebf0;
+  border-radius: 10px;
+}
+.graphic-title {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 16px;
+}
+.small {
+  display: none;
+}
+canvas {
+  max-width: 720px;
+  max-height: 294px;
+}
+#myChart2 {
+  display: none !important;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 16px;
+}
+.openButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.openButton a {
+  color: #437ef7;
+}
+.openButtonAlign{
+  margin-top: 18px;
+  margin-left: 16px;
+}
+.card {
+  width: 352px;
+  margin: 0 auto;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #eaebf0;
+}
+.name {
+  width: 121px;
+}
+.title {
+  justify-content: space-between;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding: 0 35px;
+}
+.title h3 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #272d37;
+}
+.card-title {
+  justify-content: space-between;
+  display: flex;
+  padding: 16px 20px;
+  align-items: center;
+}
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 280px;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+.teamFlex{
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+.teamFooter{
+  display: flex;
+  border-top: 1px solid #EAEBF0;
+  justify-content: space-between;
+  padding: 16px 20px;
+}
+.teamHeader{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 20px;
+}
+.teamsContainer{
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+}
+table{
+  width: 100%;
+  height: 612px;
+}
+table td{
+  border-top: 1px solid #EAEBF0;
+}
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  margin-left: 24px;
+}
+.progress-bar {
+  width: 80px;
+  height: 8px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress-bar::before {
+content: "";
+display: block;
+width: 0%;
+height: 100%;
+background-color: #437EF7;
+}
+.progress-bar[data-progress="25"]::before {
+width: 25%;
+}
+.progress-bar[data-progress="50"]::before {
+width: 50%;
+}
+.progress-bar[data-progress="75"]::before {
+width: 75%;
+}
+.progress-bar[data-progress="100"]::before {
+width: 100%;
+}
+.gap-32{
+  gap: 32px;
+}
+.gap-9{
+  gap: 9px;
+}
+.tdFlex{
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0px;
+}
+.darkGray{
+color: #272D37;
+}
+.bgBlue{
+color: #437EF7;
+}
+.backendContainer {
+  padding-top: 32px;
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+  margin-bottom: 32px;
+}
+.backendCARD1 {
+  width: 349.33px;
+  background: #FFFFFF;
+  border: 1px solid #EAEBF0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+}
+.backendCARD2 {
+  width: 349.33px;
+  background: #FFFFFF;
+  border: 1px solid #EAEBF0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+}
+.backendCARD3 {
+  width: 349.33px;
+  background: #FFFFFF;
+  border: 1px solid #EAEBF0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+}
+.textime {
+  padding: 16px 20px;
+}
+.september{
+  padding-bottom: 12px;
+}
+.time h3 {
+  padding-bottom: 4px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.cardbutton {
+  border-top: 1px solid #EAEBF0;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  padding: 16px 20px 16px;
+  width: 349.33px;
+}
+.cardbutton .whiteButton {
+  width: 151px;
+}
+.cardbutton .blueButton {
+  width: 151px;
+}
+.time p {
+  font-weight: 500;
+}
+.background1 {
+  background-image: url("../img/img1.png");
+  width: 349px;
+  height: 176px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.background2 {
+  background-image: url("../img/img2.png");
+  width: 349px;
+  height: 176px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.background3 {
+  background-image: url("../img/img3.png");
+  width: 349px;
+  height: 176px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.slack {
+  height: 32px;
+  padding-right: 12px;
+}
+.textslack {
+  padding-top: 6px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+}
+.iconslack  {
+  display: flex;
+}
+.new {
+  margin-top: 6px;
+  width: 44px;
+  height: 22px;
+  border-radius: 5px;
+  background: #F5FAFF;
+  color: rgba(67, 126, 247, 1);
+  text-align: center;
+  font-size: 13px;
+}
+/* Desktop CSS Finish */
